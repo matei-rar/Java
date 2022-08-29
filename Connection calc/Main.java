@@ -35,7 +35,7 @@ public class Main {
         } while (s1 <= 60 && s1 >= 0);
 
         do {
-            System.out.println("Hour of deconnection =");
+            System.out.println("Hour of disconnection =");
             o2 = input.nextInt();
             if (o2 > 24 || o2 < 0) {
                 System.out.println("Invalid hour!");
@@ -43,7 +43,7 @@ public class Main {
         } while (o2 <= 24 && o2 >= 0);
 
         do {
-            System.out.println("Minute of deconnection =");
+            System.out.println("Minute of disconnection =");
             m2 = input.nextInt();
             if (m2 > 60 || m2 < 0) {
                 System.out.println("Invalid minutes!");
@@ -51,7 +51,7 @@ public class Main {
         } while (m2 <= 60 && m2 >= 0);
 
         do {
-            System.out.println("Second of deconnection =");
+            System.out.println("Second of disconnection =");
             s2 = input.nextInt();
             if (s2 > 60 || s2 < 0) {
                 System.out.println("Invalid seconds!");
